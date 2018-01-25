@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/attack-monkey/zero_seed.git"
+  },
   "scripts": {
     "watch": "webpack --progress --watch",
     "start": "webpack-dev-server --open",
