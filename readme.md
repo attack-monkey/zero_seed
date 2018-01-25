@@ -10,7 +10,7 @@ Clone the seed project as a starting point of any zero project.
 
 ### Clone and cd
 
-`$ git clone https://github.com/attack-monkey/zero_seed.git`
+`$ git clone https://github.com/attack-monkey/zero_seed.git`  
 `$ cd zero_seed`
 
 ### install
