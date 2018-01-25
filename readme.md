@@ -20,5 +20,5 @@ Clone the seed project as a starting point of any zero project.
 `$ npm start`
 
 ### build
-`$npm run-script build`  
+`$ npm run-script build`  
 and the app will be built in `dist`
