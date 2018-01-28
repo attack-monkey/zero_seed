@@ -1,13 +1,11 @@
 Welcome to zero
 ======================================
 
-Zero seed is a seed project for the no-library js application framework zero.  
+Zero seed is a seed project for the no-library js application framework - zero.  
 
 Clone the seed project as a starting point of any zero project.
 
-*Note that zero seed ships with webpack and bootstrap pre-installed, however bootstrap is void of jQuery and popper.js*
-
-*Download as jQuery and popper as required.*
+*Note that zero seed ships with webpack and bootstrap (sass, but no javascript) pre-installed.*
 
 ### clone and cd
 
@@ -25,6 +23,14 @@ Clone the seed project as a starting point of any zero project.
 and the app will be built in `dist`
 
 ----
+
+### How the webpack build works
+
+Webpack first bundles all javascript into one or more bundles, starting from the root `index.js`. Any import statements it comes accross will import that javascript into the bundle. The bootstrap sass is also converted into css at this stage.
+
+An `index.html` is generated from `assets/pages/index.html`, and the bundled javascript is injected into this page.
+
+This is all moved to a `dist` folder, ready for distribution.
 
 ### Generating components
 
