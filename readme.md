@@ -32,6 +32,8 @@ An `index.html` is generated from `assets/pages/index.html`, and the bundled jav
 
 This is all moved to a `dist` folder, ready for distribution.
 
+Using `npm start` will perform this build in the background and run it on a local server. The project will display in a browser on `localhost:8080`. Any saves will automatically refresh the browser. `npm run-script build` will perform the build the project and create the dist folder with bundled project inside.
+
 ### Generating components
 
 There is a snippets folder that contains a my-feature folder. This folder is a component template. Copy and paste the folder where ever you need a new component. Then replace `my-feature` with the name of your component. Do this for the component folder name, .component.js name, .template.html name, and the reference to the template within .component.js file.
@@ -42,3 +44,4 @@ There is a snippets folder that contains a my-feature folder. This folder is a c
 
 Bootstrap is installed as part of the zero seed project and set up according to the following bootstrap / webpack guide.
 http://getbootstrap.com/docs/4.0/getting-started/webpack/#importing-styles
+
