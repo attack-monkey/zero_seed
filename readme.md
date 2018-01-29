@@ -1,6 +1,10 @@
 Welcome to zero
 ======================================
 
+zero docs @ https://zero-b1894.firebaseapp.com
+
+----
+
 Zero seed is a seed project for the no-library js application framework - zero.  
 
 Clone the seed project as a starting point of any zero project.
