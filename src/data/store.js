@@ -7,7 +7,7 @@ const store = [{
 export function getState() { return store[0] };
 
 // SEQUENCER
-export function sequence(actionList = []) {
+export function sequence(actionList) {
     store.unshift(
         actionList.reduce((ac, cv) => {
             return mainReducer(ac, cv);
@@ -21,7 +21,7 @@ export function sequence(actionList = []) {
 }
 
 // REDUCER
-function mainReducer(state, action = {}) {
+function mainReducer(state, action) {
     return {
         greeter: state.greeter,
         sub: state.sub
