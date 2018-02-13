@@ -1,4 +1,4 @@
-import template from './my-feature.template.html';
+import template from './my-feature.template.js';
 import { sequence, getState } from 'data/store.js';
 
 export default (componentSocket) => {

@@ -9,7 +9,10 @@ Zero seed is a seed project for the no-library js application framework - zero.
 
 Clone the seed project as a starting point of any zero project.
 
-*Note that zero seed ships with webpack and bootstrap (sass, but no javascript) pre-installed.*
+Zero seed ships with:  
+- webpack for bundling, building, running a local server, etc.
+- babel for compiling from es6 to es5
+- bootstrap for making things pretty (sass, but no javascript)
 
 ### clone and cd
 
@@ -40,7 +43,7 @@ Using `npm start` will perform this build in the background and run it on a loca
 
 ### Generating components
 
-There is a snippets folder that contains a my-feature folder. This folder is a component template. Copy and paste the folder where ever you need a new component. Then replace `my-feature` with the name of your component. Do this for the component folder name, .component.js name, .template.html name, and the reference to the template within .component.js file.
+There is a snippets folder that contains a my-feature folder. This folder is a component template. Copy and paste the folder where ever you need a new component. Then replace `my-feature` with the name of your component. Do this for the component folder name, .component.js name, .template.js name, and the reference to the template within .component.js file.
 
 ----
 
